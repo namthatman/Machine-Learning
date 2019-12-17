@@ -10,3 +10,13 @@ A classification model with Convolutional Neural Network (CNN) to classify the i
     4/ Activation Function:   relu, sigmoid
     5/ Loss Function:         sparse_categorical_crossentropy
     6/ Optimizer:             adam
+
+## Directing customers to subscription through app behavior analysis
+A Logistic regression model to predict which users will not subcribe to the paid membership based on app behavior analysis of the free products/services the company offered to the customers. So, that greater marketing efforts can go into trying to "convert" them to not-likely to subscribe users whom the company need to target with additional offers and promotions. Because of the costs of these offers, the company does not want to offer them to everybody, especially customers who were going to enroll anyways.
+
+    1/ Accuracy:              training (78%), test (78%)
+    2/ Libraries:             numpy, pandas, pyplot, seaborn, time, parser, sklearn
+    3/ Dataset:               'appdata10.csv'
+    4/ Feature Scaling:       StandardScaler
+    5/ Evaluating:            k-Fold Cross Validation
+    6/ Tuning:               GridSearch, Regularization
