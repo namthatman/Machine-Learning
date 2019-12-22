@@ -19,4 +19,15 @@ A Logistic Regression model to predict which users will not subcribe to the paid
     3/ Dataset:               'appdata10.csv'
     4/ Feature Scaling:       StandardScaler
     5/ Evaluating:            k-Fold Cross Validation
-    6/ Tuning:               GridSearch, Regularization
+    6/ Tuning:                GridSearch, Regularization
+
+## Predicting the likelihood of e-signing a loan based on financial history
+A machine learning model to predict for quality applicants by analyzing the financial history of the loan applicants, and choosing whether or not the applicant is too risky to be given a loan. The goal is to asses the quality of the applicants the company receives from an intermediary marketplace. The model will predict whether or not these applicants will complete the electronic signature phase of the loan application (a.k.a e_signed).
+
+    1/ Accuracy:              64%
+    2/ Models:                Logistic Regression / SVM (linear) / SVM (rbf) / Random Forest
+    2/ Libraries:             numpy, pandas, pyplot, seaborn, time, random, sklearn
+    3/ Dataset:               'financial_data.csv'
+    4/ Feature Scaling:       StandardScaler
+    5/ Evaluating:            k-Fold Cross Validation
+    6/ Tuning:                GridSearch: Entropy / Gini
