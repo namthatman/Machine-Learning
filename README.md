@@ -1,4 +1,4 @@
-Following the Udemy course, "Machine Learning A-Z™: Hands-On Python & R In Data Science", by Kirill Eremenko, Hadelin de Ponteves, SuperDataScience Team.
+CREDIT: Udemy course, "Machine Learning A-Z™: Hands-On Python & R In Data Science", by Kirill Eremenko, Hadelin de Ponteves, SuperDataScience Team.
 
 # Machine Learning
 ## Part 1 - Data Preprocessing
